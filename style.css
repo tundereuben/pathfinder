@@ -1,0 +1,181 @@
+body{
+/*    font-family: 'Mukta', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background: #fff;
+    padding: 0 2rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.jumbotron {
+    margin: 2rem auto 0;
+    padding: 10rem 0;
+    background: #fff;
+    border-bottom: solid 1px #ccc;
+}
+
+.jumbotron h2 {
+    font-size: 2.8rem;
+    line-height: 5rem
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+
+/*About*/
+#about{
+    background: url(images/grey-bg.jpeg);
+    padding: 7rem 0;
+    text-align: center;
+}
+
+#about img{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+/*What We Are Reading*/
+#what-we-are-reading {
+    background: url(images/bg-rick.jpg);
+    color: #fff;
+    padding: 4rem 1rem;
+}
+
+#what-we-are-reading img{
+    width: 100%;
+    box-shadow: 2px 2px #ccc;
+}
+
+#what-we-are-reading  #book-title {
+    margin-top: 4rem;
+}
+
+#what-we-are-reading  #book-title h1{
+    margin-top: 4rem;
+}
+
+#what-we-are-reading #book-synopsis {
+    margin-top: 3rem;
+}
+
+/*Location*/
+#location{
+    margin: 3rem auto;
+    padding: 3rem 0;
+}
+
+#location .col-sm-4{
+    margin: 3rem auto 1rem;
+    background: rgba(0,0,0, 0.1);
+    padding: 1rem 0;
+}
+
+/*Testimonials*/
+#testimonials{
+    background: #ccc;
+    padding: 5rem 0;
+    height: auto;
+}
+
+#testimonials  .carousel-item {
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+#testimonials img{
+    margin-bottom: 2rem;
+}
+
+/*Footer*/
+#footer{
+    background: #000;
+    padding: 2rem 0;
+}
+
+#footer p{
+/*    margin: 2rem 0;*/
+    color: #ccc;
+}
+
+
+/*===About Page===*/
+#about-page, #store {
+    background: url(images/grey-bg.jpeg);
+    margin: 2rem auto 0;
+    padding: 10rem 0;
+    border-bottom: solid 1px #ccc;
+}
+
+#about-page img{
+    width: 100%;
+}
+
+#about-page  h3{
+    margin-top: 2rem;
+}
+
+
+/*===Store Page===*/
+#store {
+    background: url(images/grey-bg.jpeg);
+    margin: 2rem auto 0;
+    padding: 5rem 0;
+    border-bottom: solid 1px #ccc;
+}
+
+#store h3 {
+    margin-bottom: 2rem;
+}
+
+#store .card-deck {
+    margin-bottom: 2rem;
+}
+
+
+/*===What We Believe ===*/
+#beliefs li{
+    margin-bottom: 2rem;
+}
+
+
+
+
+/*===MEDIA QUERIS===*/
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        margin: 2rem auto 0;
+        padding: 4rem 0;
+        background: #fff;
+        border-bottom: solid 1px #ccc;
+        text-align: center;
+    }
+    
+    .jumbotron h2 {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+    
+    #about{
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    #what-we-are-reading {
+        color: #fff;
+        padding: 2rem 1rem;
+    }
+    
+    #location{
+        margin: 1rem auto;
+    }
+    #location .col-sm-4{
+        margin: 1rem;
+    }
+}
+
