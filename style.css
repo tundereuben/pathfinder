@@ -4,16 +4,17 @@ body{
 }
 
 nav{
-    background: #fff;
-    padding: 0 2rem;
+    background: /*url(images/grey-bg.jpeg)*/ #fff;
+    padding: 0 5rem;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    font-size: 0.9em;
 }
 
 .jumbotron {
     margin: 2rem auto 0;
     padding: 10rem 0;
-    background: #fff;
+    background: /*#fff*/ #F8F9FA;
     border-bottom: solid 1px #ccc;
 }
 
@@ -65,8 +66,9 @@ nav{
 
 /*Location*/
 #location{
-    margin: 3rem auto;
-    padding: 3rem 0;
+    margin:  auto;
+    padding: 6rem 0;
+    background: /*#fff*/ #F8F9FA;
 }
 
 #location .col-sm-4{
@@ -153,7 +155,23 @@ nav{
     margin-bottom: 2rem;
 }
 
+/*===login Page===*/
+.login-form{
+    height: 100vh;
+    background: #eee;
+}
 
+.login-form button{
+    width: 100%;
+}
+
+.login-form form {
+    margin: 25vh auto;
+}
+
+.login-form a {
+    color: #000;
+}
 
 
 /*===MEDIA QUERIS===*/
